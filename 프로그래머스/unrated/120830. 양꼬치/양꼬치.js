@@ -8,8 +8,8 @@
 */
 function solution(n, k) {
     const offsetOfN = 12000 * 10;
-    const offsetKOfK = parseInt((n * 12000) / offsetOfN, 10);
-    const price = (n * 12000) + (k - offsetKOfK) * 2000;
+    const offsetOfK = parseInt((n * 12000) / offsetOfN, 10);
+    const price = (n * 12000) + (k - offsetOfK) * 2000;
 
     return price;
 }
